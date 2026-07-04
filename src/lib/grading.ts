@@ -62,9 +62,13 @@ export const capLabel = (g: number) => (g >= 1000 ? `$${(g / 1000).toFixed(1)}T`
 
 // Market-cap buckets for the picker's filter. Half-open ranges [min, max).
 export const CAP_BANDS: { key: string; label: string; min: number; max: number }[] = [
-  { key: "mega",  label: "Mega ($1T+)",       min: 1000, max: Infinity },
-  { key: "large", label: "Large ($200B–1T)",  min: 200,  max: 1000 },
-  { key: "mid",   label: "Mid ($50–200B)",    min: 50,   max: 200 },
-  { key: "small", label: "Small (<$50B)",     min: 0,    max: 50 },
+  { key: "t2",   label: "$2T+",        min: 2000, max: Infinity },
+  { key: "t1",   label: "$1T–2T",      min: 1000, max: 2000 },
+  { key: "b500", label: "$500B–1T",    min: 500,  max: 1000 },
+  { key: "b300", label: "$300B–500B",  min: 300,  max: 500 },
+  { key: "b200", label: "$200B–300B",  min: 200,  max: 300 },
+  { key: "b120", label: "$120B–200B",  min: 120,  max: 200 },
+  { key: "b60",  label: "$60B–120B",   min: 60,   max: 120 },
+  { key: "u60",  label: "Under $60B",  min: 0,    max: 60 },
 ];
 export const capBand = (cap: number) => CAP_BANDS.find((b) => cap >= b.min && cap < b.max)?.key ?? "";

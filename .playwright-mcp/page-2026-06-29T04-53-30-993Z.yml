@@ -1,0 +1,44 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "how to play" [ref=e7] [cursor=pointer]: "?"
+      - button "settings" [ref=e8] [cursor=pointer]: ⚙
+    - heading "ACRODLE" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - button "stats" [ref=e11] [cursor=pointer]: 📊
+      - button "theme" [ref=e12] [cursor=pointer]: ☀
+  - paragraph [ref=e13]: "Daily #13"
+  - paragraph [ref=e14]:
+    - text: Guess the
+    - generic [ref=e15]: 6 companies
+    - text: whose initials spell a hidden tech acronym.
+    - text: Each guess is graded — use the hints to crack it.
+  - generic [ref=e19]:
+    - button "M Meta" [ref=e540] [cursor=pointer]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: M
+        - generic [ref=e541]: Meta
+    - button "A Amazon" [ref=e978] [cursor=pointer]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: A
+        - generic [ref=e979]: Amazon
+    - button "N Nvidia" [ref=e1416] [cursor=pointer]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: "N"
+        - generic [ref=e1417]: Nvidia
+    - button "I Intuit" [ref=e1854] [cursor=pointer]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: I
+        - generic [ref=e1855]: Intuit
+    - button "A AMD" [ref=e2292] [cursor=pointer]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: A
+        - generic [ref=e2293]: AMD
+    - button "C Cisco" [ref=e2730] [cursor=pointer]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: C
+        - generic [ref=e2731]: Cisco
+  - generic [ref=e89]:
+    - paragraph [ref=e2732]: Tap a slot above, or just start typing.
+    - button "ENTER" [ref=e538] [cursor=pointer]
+  - contentinfo [ref=e539]: 110-company universe · caps approx June 2026 · saved to this browser

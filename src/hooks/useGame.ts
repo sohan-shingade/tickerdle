@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Settings, Stats, Sector } from "../types";
 import { COMPANIES, BY_NAME } from "../data/companies";
 import { PUZZLES, OPENING_WEEK } from "../data/puzzles";
-import { dayNumber, msToNextDay } from "../lib/daily";
+import { dayNumber } from "../lib/daily";
 import { canonical, sameCompany, capBand } from "../lib/grading";
 import {
   loadSettings, saveSettings, loadStats, saveStats, loadDaily, saveDaily,
@@ -135,16 +135,17 @@ export function useGame() {
   }, []);
 
   // ── midnight rollover ────────────────────────────────────────
-  // Re-arm a timer to the next UTC midnight; when it fires, bump DAY so an
-  // open tab picks up the new daily without a manual refresh. Also re-syncs if
-  // the device wakes from sleep past midnight.
+  // Poll dayNumber() every minute so an open tab picks up the new daily without
+  // a manual refresh. setDAY with an unchanged value is a no-op rerender, so
+  // this is cheap and self-heals after sleep/wake or a foreground tab crossing
+  // midnight (cases a one-shot setTimeout + visibilitychange would miss).
   useEffect(() => {
     const tick = () => setDAY(dayNumber());
-    const t = setTimeout(tick, msToNextDay() + 1000);
+    const id = setInterval(tick, 60_000);
     const onVis = () => { if (document.visibilityState === "visible") tick(); };
     document.addEventListener("visibilitychange", onVis);
-    return () => { clearTimeout(t); document.removeEventListener("visibilitychange", onVis); };
-  }, [DAY]);
+    return () => { clearInterval(id); document.removeEventListener("visibilitychange", onVis); };
+  }, []);
 
   // When the day actually changes, load the new daily board (only if the player
   // is on the daily — don't yank someone out of a Forever round).

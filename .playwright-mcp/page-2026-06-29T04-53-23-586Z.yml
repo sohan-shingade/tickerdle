@@ -1,0 +1,511 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "how to play" [ref=e7] [cursor=pointer]: "?"
+      - button "settings" [ref=e8] [cursor=pointer]: ⚙
+    - heading "ACRODLE" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - button "stats" [ref=e11] [cursor=pointer]: 📊
+      - button "theme" [ref=e12] [cursor=pointer]: ☀
+  - paragraph [ref=e13]: "Daily #13"
+  - paragraph [ref=e14]:
+    - text: Guess the
+    - generic [ref=e15]: 6 companies
+    - text: whose initials spell a hidden tech acronym.
+    - text: Each guess is graded — use the hints to crack it.
+  - generic [ref=e19]:
+    - button "M Meta" [ref=e540] [cursor=pointer]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: M
+        - generic [ref=e541]: Meta
+    - button "A Amazon" [ref=e978] [cursor=pointer]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: A
+        - generic [ref=e979]: Amazon
+    - button "N Nvidia" [ref=e1416] [cursor=pointer]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: "N"
+        - generic [ref=e1417]: Nvidia
+    - button "I Intuit" [ref=e1854] [cursor=pointer]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: I
+        - generic [ref=e1855]: Intuit
+    - button "5" [ref=e32] [cursor=pointer]:
+      - generic [ref=e34]: "5"
+    - button "6" [ref=e35] [cursor=pointer]:
+      - generic [ref=e37]: "6"
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - paragraph [ref=e91]: Filling slot 5 of 6 — search any tech company
+      - textbox "Search companies… (Enter picks top)" [active] [ref=e92]
+      - generic [ref=e94]:
+        - combobox "Filter by sector" [ref=e95] [cursor=pointer]:
+          - option "All sectors" [selected]
+          - option "Aerospace"
+          - option "AI Lab"
+          - option "Automotive/EV"
+          - option "Banking"
+          - option "Cloud/Software"
+          - option "Conglomerate"
+          - option "Consumer"
+          - option "E-commerce"
+          - option "Energy"
+          - option "Fintech"
+          - option "Hardware"
+          - option "Media"
+          - option "Mobility"
+          - option "Networking"
+          - option "Pharma"
+          - option "Retail"
+          - option "Search/Ads"
+          - option "Semiconductors"
+          - option "Social/Internet"
+        - combobox "Filter by market cap" [ref=e96] [cursor=pointer]:
+          - option "Any market cap" [selected]
+          - option "Mega ($1T+)"
+          - option "Large ($200B–1T)"
+          - option "Mid ($50–200B)"
+          - option "Small (<$50B)"
+      - generic [ref=e97]:
+        - button "N Nvidia $5.2T · Semiconductors" [ref=e1856] [cursor=pointer]:
+          - generic [ref=e1857]: "N"
+          - generic [ref=e1858]: Nvidia
+          - generic [ref=e1859]: $5.2T · Semiconductors
+        - button "A Apple $4.5T · Consumer" [ref=e1860] [cursor=pointer]:
+          - generic [ref=e1861]: A
+          - generic [ref=e1862]: Apple
+          - generic [ref=e1863]: $4.5T · Consumer
+        - button "G Google $4.6T · Search/Ads" [ref=e1864] [cursor=pointer]:
+          - generic [ref=e1865]: G
+          - generic [ref=e1866]: Google
+          - generic [ref=e1867]: $4.6T · Search/Ads
+        - button "A Alphabet $4.6T · Search/Ads" [ref=e1868] [cursor=pointer]:
+          - generic [ref=e1869]: A
+          - generic [ref=e1870]: Alphabet
+          - generic [ref=e1871]: $4.6T · Search/Ads
+        - button "M Microsoft $3.1T · Cloud/Software" [ref=e1872] [cursor=pointer]:
+          - generic [ref=e1873]: M
+          - generic [ref=e1874]: Microsoft
+          - generic [ref=e1875]: $3.1T · Cloud/Software
+        - button "A Amazon $2.8T · E-commerce" [ref=e1876] [cursor=pointer]:
+          - generic [ref=e1877]: A
+          - generic [ref=e1878]: Amazon
+          - generic [ref=e1879]: $2.8T · E-commerce
+        - button "T TSMC $2.0T · Semiconductors" [ref=e1880] [cursor=pointer]:
+          - generic [ref=e1881]: T
+          - generic [ref=e1882]: TSMC
+          - generic [ref=e1883]: $2.0T · Semiconductors
+        - button "B Broadcom $1.9T · Semiconductors" [ref=e1884] [cursor=pointer]:
+          - generic [ref=e1885]: B
+          - generic [ref=e1886]: Broadcom
+          - generic [ref=e1887]: $1.9T · Semiconductors
+        - button "S SpaceX ·pvt $1.9T · Aerospace" [ref=e1888] [cursor=pointer]:
+          - generic [ref=e1889]: S
+          - generic [ref=e1890]: SpaceX ·pvt
+          - generic [ref=e1891]: $1.9T · Aerospace
+        - button "S Saudi Aramco $1.7T · Energy" [ref=e1892] [cursor=pointer]:
+          - generic [ref=e1893]: S
+          - generic [ref=e1894]: Saudi Aramco
+          - generic [ref=e1895]: $1.7T · Energy
+        - button "M Meta $1.7T · Social/Internet" [ref=e1896] [cursor=pointer]:
+          - generic [ref=e1897]: M
+          - generic [ref=e1898]: Meta
+          - generic [ref=e1899]: $1.7T · Social/Internet
+        - button "T Tesla $1.4T · Automotive/EV" [ref=e1900] [cursor=pointer]:
+          - generic [ref=e1901]: T
+          - generic [ref=e1902]: Tesla
+          - generic [ref=e1903]: $1.4T · Automotive/EV
+        - button "B Berkshire Hathaway $1.1T · Conglomerate" [ref=e1904] [cursor=pointer]:
+          - generic [ref=e1905]: B
+          - generic [ref=e1906]: Berkshire Hathaway
+          - generic [ref=e1907]: $1.1T · Conglomerate
+        - button "O OpenAI ·pvt $850B · AI Lab" [ref=e1908] [cursor=pointer]:
+          - generic [ref=e1909]: O
+          - generic [ref=e1910]: OpenAI ·pvt
+          - generic [ref=e1911]: $850B · AI Lab
+        - button "J JPMorgan Chase $750B · Banking" [ref=e1912] [cursor=pointer]:
+          - generic [ref=e1913]: J
+          - generic [ref=e1914]: JPMorgan Chase
+          - generic [ref=e1915]: $750B · Banking
+        - button "O Oracle $700B · Cloud/Software" [ref=e1916] [cursor=pointer]:
+          - generic [ref=e1917]: O
+          - generic [ref=e1918]: Oracle
+          - generic [ref=e1919]: $700B · Cloud/Software
+        - button "E Eli Lilly $700B · Pharma" [ref=e1920] [cursor=pointer]:
+          - generic [ref=e1921]: E
+          - generic [ref=e1922]: Eli Lilly
+          - generic [ref=e1923]: $700B · Pharma
+        - button "W Walmart $800B · Retail" [ref=e1924] [cursor=pointer]:
+          - generic [ref=e1925]: W
+          - generic [ref=e1926]: Walmart
+          - generic [ref=e1927]: $800B · Retail
+        - button "V Visa $650B · Fintech" [ref=e1928] [cursor=pointer]:
+          - generic [ref=e1929]: V
+          - generic [ref=e1930]: Visa
+          - generic [ref=e1931]: $650B · Fintech
+        - button "T Tencent $600B · Social/Internet" [ref=e1932] [cursor=pointer]:
+          - generic [ref=e1933]: T
+          - generic [ref=e1934]: Tencent
+          - generic [ref=e1935]: $600B · Social/Internet
+        - button "E Exxon Mobil $520B · Energy" [ref=e1936] [cursor=pointer]:
+          - generic [ref=e1937]: E
+          - generic [ref=e1938]: Exxon Mobil
+          - generic [ref=e1939]: $520B · Energy
+        - button "M Mastercard $500B · Fintech" [ref=e1940] [cursor=pointer]:
+          - generic [ref=e1941]: M
+          - generic [ref=e1942]: Mastercard
+          - generic [ref=e1943]: $500B · Fintech
+        - button "N Netflix $470B · Media" [ref=e1944] [cursor=pointer]:
+          - generic [ref=e1945]: "N"
+          - generic [ref=e1946]: Netflix
+          - generic [ref=e1947]: $470B · Media
+        - button "P Palantir $450B · Cloud/Software" [ref=e1948] [cursor=pointer]:
+          - generic [ref=e1949]: P
+          - generic [ref=e1950]: Palantir
+          - generic [ref=e1951]: $450B · Cloud/Software
+        - button "C Costco $420B · Retail" [ref=e1952] [cursor=pointer]:
+          - generic [ref=e1953]: C
+          - generic [ref=e1954]: Costco
+          - generic [ref=e1955]: $420B · Retail
+        - button "S Samsung $400B · Hardware" [ref=e1956] [cursor=pointer]:
+          - generic [ref=e1957]: S
+          - generic [ref=e1958]: Samsung
+          - generic [ref=e1959]: $400B · Hardware
+        - button "A AMD $400B · Semiconductors" [ref=e1960] [cursor=pointer]:
+          - generic [ref=e1961]: A
+          - generic [ref=e1962]: AMD
+          - generic [ref=e1963]: $400B · Semiconductors
+        - button "J Johnson & Johnson $400B · Pharma" [ref=e1964] [cursor=pointer]:
+          - generic [ref=e1965]: J
+          - generic [ref=e1966]: Johnson & Johnson
+          - generic [ref=e1967]: $400B · Pharma
+        - button "A Anthropic ·pvt $350B · AI Lab" [ref=e1968] [cursor=pointer]:
+          - generic [ref=e1969]: A
+          - generic [ref=e1970]: Anthropic ·pvt
+          - generic [ref=e1971]: $350B · AI Lab
+        - button "B Bank of America $350B · Banking" [ref=e1972] [cursor=pointer]:
+          - generic [ref=e1973]: B
+          - generic [ref=e1974]: Bank of America
+          - generic [ref=e1975]: $350B · Banking
+        - button "A ASML $350B · Semiconductors" [ref=e1976] [cursor=pointer]:
+          - generic [ref=e1977]: A
+          - generic [ref=e1978]: ASML
+          - generic [ref=e1979]: $350B · Semiconductors
+        - button "S SAP $350B · Cloud/Software" [ref=e1980] [cursor=pointer]:
+          - generic [ref=e1981]: S
+          - generic [ref=e1982]: SAP
+          - generic [ref=e1983]: $350B · Cloud/Software
+        - button "H Home Depot $380B · Retail" [ref=e1984] [cursor=pointer]:
+          - generic [ref=e1985]: H
+          - generic [ref=e1986]: Home Depot
+          - generic [ref=e1987]: $380B · Retail
+        - button "P Procter & Gamble $380B · Consumer" [ref=e1988] [cursor=pointer]:
+          - generic [ref=e1989]: P
+          - generic [ref=e1990]: Procter & Gamble
+          - generic [ref=e1991]: $380B · Consumer
+        - button "A Alibaba $300B · E-commerce" [ref=e1992] [cursor=pointer]:
+          - generic [ref=e1993]: A
+          - generic [ref=e1994]: Alibaba
+          - generic [ref=e1995]: $300B · E-commerce
+        - button "B ByteDance ·pvt $300B · Social/Internet" [ref=e1996] [cursor=pointer]:
+          - generic [ref=e1997]: B
+          - generic [ref=e1998]: ByteDance ·pvt
+          - generic [ref=e1999]: $300B · Social/Internet
+        - button "C Coca-Cola $290B · Consumer" [ref=e2000] [cursor=pointer]:
+          - generic [ref=e2001]: C
+          - generic [ref=e2002]: Coca-Cola
+          - generic [ref=e2003]: $290B · Consumer
+        - button "S Salesforce $250B · Cloud/Software" [ref=e2004] [cursor=pointer]:
+          - generic [ref=e2005]: S
+          - generic [ref=e2006]: Salesforce
+          - generic [ref=e2007]: $250B · Cloud/Software
+        - button "C Cisco $250B · Networking" [ref=e2008] [cursor=pointer]:
+          - generic [ref=e2009]: C
+          - generic [ref=e2010]: Cisco
+          - generic [ref=e2011]: $250B · Networking
+        - button "I IBM $230B · Cloud/Software" [ref=e2012] [cursor=pointer]:
+          - generic [ref=e2013]: I
+          - generic [ref=e2014]: IBM
+          - generic [ref=e2015]: $230B · Cloud/Software
+        - button "P PepsiCo $230B · Consumer" [ref=e2016] [cursor=pointer]:
+          - generic [ref=e2017]: P
+          - generic [ref=e2018]: PepsiCo
+          - generic [ref=e2019]: $230B · Consumer
+        - button "M McDonald's $220B · Retail" [ref=e2020] [cursor=pointer]:
+          - generic [ref=e2021]: M
+          - generic [ref=e2022]: McDonald's
+          - generic [ref=e2023]: $220B · Retail
+        - button "A Adobe $200B · Cloud/Software" [ref=e2024] [cursor=pointer]:
+          - generic [ref=e2025]: A
+          - generic [ref=e2026]: Adobe
+          - generic [ref=e2027]: $200B · Cloud/Software
+        - button "S ServiceNow $200B · Cloud/Software" [ref=e2028] [cursor=pointer]:
+          - generic [ref=e2029]: S
+          - generic [ref=e2030]: ServiceNow
+          - generic [ref=e2031]: $200B · Cloud/Software
+        - button "D Disney $200B · Media" [ref=e2032] [cursor=pointer]:
+          - generic [ref=e2033]: D
+          - generic [ref=e2034]: Disney
+          - generic [ref=e2035]: $200B · Media
+        - button "Q Qualcomm $200B · Semiconductors" [ref=e2036] [cursor=pointer]:
+          - generic [ref=e2037]: Q
+          - generic [ref=e2038]: Qualcomm
+          - generic [ref=e2039]: $200B · Semiconductors
+        - button "X xAI ·pvt $200B · AI Lab" [ref=e2040] [cursor=pointer]:
+          - generic [ref=e2041]: X
+          - generic [ref=e2042]: xAI ·pvt
+          - generic [ref=e2043]: $200B · AI Lab
+        - button "A Accenture $200B · Cloud/Software" [ref=e2044] [cursor=pointer]:
+          - generic [ref=e2045]: A
+          - generic [ref=e2046]: Accenture
+          - generic [ref=e2047]: $200B · Cloud/Software
+        - button "A Arm $180B · Semiconductors" [ref=e2048] [cursor=pointer]:
+          - generic [ref=e2049]: A
+          - generic [ref=e2050]: Arm
+          - generic [ref=e2051]: $180B · Semiconductors
+        - button "A Applied Materials $180B · Semiconductors" [ref=e2052] [cursor=pointer]:
+          - generic [ref=e2053]: A
+          - generic [ref=e2054]: Applied Materials
+          - generic [ref=e2055]: $180B · Semiconductors
+        - button "T Texas Instruments $180B · Semiconductors" [ref=e2056] [cursor=pointer]:
+          - generic [ref=e2057]: T
+          - generic [ref=e2058]: Texas Instruments
+          - generic [ref=e2059]: $180B · Semiconductors
+        - button "I Intuit $180B · Cloud/Software" [ref=e1618] [cursor=pointer]:
+          - generic [ref=e1619]: I
+          - generic [ref=e1620]: Intuit
+          - generic [ref=e1621]: $180B · Cloud/Software
+        - button "P PDD (Pinduoduo) $180B · E-commerce" [ref=e2060] [cursor=pointer]:
+          - generic [ref=e2061]: P
+          - generic [ref=e2062]: PDD (Pinduoduo)
+          - generic [ref=e2063]: $180B · E-commerce
+        - button "U Uber $180B · Mobility" [ref=e2064] [cursor=pointer]:
+          - generic [ref=e2065]: U
+          - generic [ref=e2066]: Uber
+          - generic [ref=e2067]: $180B · Mobility
+        - button "P Pfizer $160B · Pharma" [ref=e2068] [cursor=pointer]:
+          - generic [ref=e2069]: P
+          - generic [ref=e2070]: Pfizer
+          - generic [ref=e2071]: $160B · Pharma
+        - button "M Micron $150B · Semiconductors" [ref=e2072] [cursor=pointer]:
+          - generic [ref=e2073]: M
+          - generic [ref=e2074]: Micron
+          - generic [ref=e2075]: $150B · Semiconductors
+        - button "S Shopify $150B · E-commerce" [ref=e2076] [cursor=pointer]:
+          - generic [ref=e2077]: S
+          - generic [ref=e2078]: Shopify
+          - generic [ref=e2079]: $150B · E-commerce
+        - button "S Spotify $140B · Media" [ref=e2080] [cursor=pointer]:
+          - generic [ref=e2081]: S
+          - generic [ref=e2082]: Spotify
+          - generic [ref=e2083]: $140B · Media
+        - button "L Lam Research $130B · Semiconductors" [ref=e2084] [cursor=pointer]:
+          - generic [ref=e2085]: L
+          - generic [ref=e2086]: Lam Research
+          - generic [ref=e2087]: $130B · Semiconductors
+        - button "S Sony $130B · Consumer" [ref=e2088] [cursor=pointer]:
+          - generic [ref=e2089]: S
+          - generic [ref=e2090]: Sony
+          - generic [ref=e2091]: $130B · Consumer
+        - button "P Palo Alto Networks $130B · Cloud/Software" [ref=e2092] [cursor=pointer]:
+          - generic [ref=e2093]: P
+          - generic [ref=e2094]: Palo Alto Networks
+          - generic [ref=e2095]: $130B · Cloud/Software
+        - button "X Xiaomi $130B · Hardware" [ref=e2096] [cursor=pointer]:
+          - generic [ref=e2097]: X
+          - generic [ref=e2098]: Xiaomi
+          - generic [ref=e2099]: $130B · Hardware
+        - button "D Databricks ·pvt $130B · Cloud/Software" [ref=e2100] [cursor=pointer]:
+          - generic [ref=e2101]: D
+          - generic [ref=e2102]: Databricks ·pvt
+          - generic [ref=e2103]: $130B · Cloud/Software
+        - button "I Intel $120B · Semiconductors" [ref=e2104] [cursor=pointer]:
+          - generic [ref=e2105]: I
+          - generic [ref=e2106]: Intel
+          - generic [ref=e2107]: $120B · Semiconductors
+        - button "N Nike $120B · Consumer" [ref=e2108] [cursor=pointer]:
+          - generic [ref=e2109]: "N"
+          - generic [ref=e2110]: Nike
+          - generic [ref=e2111]: $120B · Consumer
+        - button "A Analog Devices $110B · Semiconductors" [ref=e2112] [cursor=pointer]:
+          - generic [ref=e2113]: A
+          - generic [ref=e2114]: Analog Devices
+          - generic [ref=e2115]: $110B · Semiconductors
+        - button "C CrowdStrike $100B · Cloud/Software" [ref=e2116] [cursor=pointer]:
+          - generic [ref=e2117]: C
+          - generic [ref=e2118]: CrowdStrike
+          - generic [ref=e2119]: $100B · Cloud/Software
+        - button "D Dell $100B · Hardware" [ref=e2120] [cursor=pointer]:
+          - generic [ref=e2121]: D
+          - generic [ref=e2122]: Dell
+          - generic [ref=e2123]: $100B · Hardware
+        - button "S Stripe ·pvt $100B · Fintech" [ref=e2124] [cursor=pointer]:
+          - generic [ref=e2125]: S
+          - generic [ref=e2126]: Stripe ·pvt
+          - generic [ref=e2127]: $100B · Fintech
+        - button "M Marvell $90B · Semiconductors" [ref=e2128] [cursor=pointer]:
+          - generic [ref=e2129]: M
+          - generic [ref=e2130]: Marvell
+          - generic [ref=e2131]: $90B · Semiconductors
+        - button "N Nintendo $90B · Consumer" [ref=e2132] [cursor=pointer]:
+          - generic [ref=e2133]: "N"
+          - generic [ref=e2134]: Nintendo
+          - generic [ref=e2135]: $90B · Consumer
+        - button "C Coinbase $90B · Fintech" [ref=e2136] [cursor=pointer]:
+          - generic [ref=e2137]: C
+          - generic [ref=e2138]: Coinbase
+          - generic [ref=e2139]: $90B · Fintech
+        - button "A Airbnb $90B · E-commerce" [ref=e2140] [cursor=pointer]:
+          - generic [ref=e2141]: A
+          - generic [ref=e2142]: Airbnb
+          - generic [ref=e2143]: $90B · E-commerce
+        - button "D DoorDash $90B · Mobility" [ref=e2144] [cursor=pointer]:
+          - generic [ref=e2145]: D
+          - generic [ref=e2146]: DoorDash
+          - generic [ref=e2147]: $90B · Mobility
+        - button "F Fortinet $80B · Cloud/Software" [ref=e2148] [cursor=pointer]:
+          - generic [ref=e2149]: F
+          - generic [ref=e2150]: Fortinet
+          - generic [ref=e2151]: $80B · Cloud/Software
+        - button "P PayPal $80B · Fintech" [ref=e2152] [cursor=pointer]:
+          - generic [ref=e2153]: P
+          - generic [ref=e2154]: PayPal
+          - generic [ref=e2155]: $80B · Fintech
+        - button "A Autodesk $70B · Cloud/Software" [ref=e2156] [cursor=pointer]:
+          - generic [ref=e2157]: A
+          - generic [ref=e2158]: Autodesk
+          - generic [ref=e2159]: $70B · Cloud/Software
+        - button "J JD.com $60B · E-commerce" [ref=e2160] [cursor=pointer]:
+          - generic [ref=e2161]: J
+          - generic [ref=e2162]: JD.com
+          - generic [ref=e2163]: $60B · E-commerce
+        - button "W Workday $60B · Cloud/Software" [ref=e2164] [cursor=pointer]:
+          - generic [ref=e2165]: W
+          - generic [ref=e2166]: Workday
+          - generic [ref=e2167]: $60B · Cloud/Software
+        - button "A Atlassian $60B · Cloud/Software" [ref=e2168] [cursor=pointer]:
+          - generic [ref=e2169]: A
+          - generic [ref=e2170]: Atlassian
+          - generic [ref=e2171]: $60B · Cloud/Software
+        - button "S Snowflake $60B · Cloud/Software" [ref=e2172] [cursor=pointer]:
+          - generic [ref=e2173]: S
+          - generic [ref=e2174]: Snowflake
+          - generic [ref=e2175]: $60B · Cloud/Software
+        - button "C Cloudflare $60B · Cloud/Software" [ref=e2176] [cursor=pointer]:
+          - generic [ref=e2177]: C
+          - generic [ref=e2178]: Cloudflare
+          - generic [ref=e2179]: $60B · Cloud/Software
+        - button "B Block $60B · Fintech" [ref=e2180] [cursor=pointer]:
+          - generic [ref=e2181]: B
+          - generic [ref=e2182]: Block
+          - generic [ref=e2183]: $60B · Fintech
+        - button "R Robinhood $60B · Fintech" [ref=e2184] [cursor=pointer]:
+          - generic [ref=e2185]: R
+          - generic [ref=e2186]: Robinhood
+          - generic [ref=e2187]: $60B · Fintech
+        - button "D Datadog $50B · Cloud/Software" [ref=e2188] [cursor=pointer]:
+          - generic [ref=e2189]: D
+          - generic [ref=e2190]: Datadog
+          - generic [ref=e2191]: $50B · Cloud/Software
+        - button "B Baidu $40B · Search/Ads" [ref=e2192] [cursor=pointer]:
+          - generic [ref=e2193]: B
+          - generic [ref=e2194]: Baidu
+          - generic [ref=e2195]: $40B · Search/Ads
+        - button "Z Zscaler $40B · Cloud/Software" [ref=e2196] [cursor=pointer]:
+          - generic [ref=e2197]: Z
+          - generic [ref=e2198]: Zscaler
+          - generic [ref=e2199]: $40B · Cloud/Software
+        - button "E Electronic Arts $40B · Media" [ref=e2200] [cursor=pointer]:
+          - generic [ref=e2201]: E
+          - generic [ref=e2202]: Electronic Arts
+          - generic [ref=e2203]: $40B · Media
+        - button "R Roblox $40B · Media" [ref=e2204] [cursor=pointer]:
+          - generic [ref=e2205]: R
+          - generic [ref=e2206]: Roblox
+          - generic [ref=e2207]: $40B · Media
+        - button "C Canva ·pvt $40B · Cloud/Software" [ref=e2208] [cursor=pointer]:
+          - generic [ref=e2209]: C
+          - generic [ref=e2210]: Canva ·pvt
+          - generic [ref=e2211]: $40B · Cloud/Software
+        - button "G GlobalFoundries $30B · Semiconductors" [ref=e2212] [cursor=pointer]:
+          - generic [ref=e2213]: G
+          - generic [ref=e2214]: GlobalFoundries
+          - generic [ref=e2215]: $30B · Semiconductors
+        - button "O ON Semiconductor $30B · Semiconductors" [ref=e2216] [cursor=pointer]:
+          - generic [ref=e2217]: O
+          - generic [ref=e2218]: ON Semiconductor
+          - generic [ref=e2219]: $30B · Semiconductors
+        - button "R Reddit $30B · Social/Internet" [ref=e2220] [cursor=pointer]:
+          - generic [ref=e2221]: R
+          - generic [ref=e2222]: Reddit
+          - generic [ref=e2223]: $30B · Social/Internet
+        - button "M MongoDB $30B · Cloud/Software" [ref=e2224] [cursor=pointer]:
+          - generic [ref=e2225]: M
+          - generic [ref=e2226]: MongoDB
+          - generic [ref=e2227]: $30B · Cloud/Software
+        - button "H HP $30B · Hardware" [ref=e2228] [cursor=pointer]:
+          - generic [ref=e2229]: H
+          - generic [ref=e2230]: HP
+          - generic [ref=e2231]: $30B · Hardware
+        - button "E Epic Games ·pvt $30B · Media" [ref=e2232] [cursor=pointer]:
+          - generic [ref=e2233]: E
+          - generic [ref=e2234]: Epic Games ·pvt
+          - generic [ref=e2235]: $30B · Media
+        - button "T Take-Two $30B · Media" [ref=e2236] [cursor=pointer]:
+          - generic [ref=e2237]: T
+          - generic [ref=e2238]: Take-Two
+          - generic [ref=e2239]: $30B · Media
+        - button "P Pinterest $25B · Social/Internet" [ref=e2240] [cursor=pointer]:
+          - generic [ref=e2241]: P
+          - generic [ref=e2242]: Pinterest
+          - generic [ref=e2243]: $25B · Social/Internet
+        - button "Z Zoom $25B · Cloud/Software" [ref=e2244] [cursor=pointer]:
+          - generic [ref=e2245]: Z
+          - generic [ref=e2246]: Zoom
+          - generic [ref=e2247]: $25B · Cloud/Software
+        - button "S SoFi $25B · Fintech" [ref=e2248] [cursor=pointer]:
+          - generic [ref=e2249]: S
+          - generic [ref=e2250]: SoFi
+          - generic [ref=e2251]: $25B · Fintech
+        - button "S Snap $20B · Social/Internet" [ref=e2252] [cursor=pointer]:
+          - generic [ref=e2253]: S
+          - generic [ref=e2254]: Snap
+          - generic [ref=e2255]: $20B · Social/Internet
+        - button "A Affirm $20B · Fintech" [ref=e2256] [cursor=pointer]:
+          - generic [ref=e2257]: A
+          - generic [ref=e2258]: Affirm
+          - generic [ref=e2259]: $20B · Fintech
+        - button "D DraftKings $20B · Media" [ref=e2260] [cursor=pointer]:
+          - generic [ref=e2261]: D
+          - generic [ref=e2262]: DraftKings
+          - generic [ref=e2263]: $20B · Media
+        - button "T Twilio $15B · Cloud/Software" [ref=e2264] [cursor=pointer]:
+          - generic [ref=e2265]: T
+          - generic [ref=e2266]: Twilio
+          - generic [ref=e2267]: $15B · Cloud/Software
+        - button "O Okta $15B · Cloud/Software" [ref=e2268] [cursor=pointer]:
+          - generic [ref=e2269]: O
+          - generic [ref=e2270]: Okta
+          - generic [ref=e2271]: $15B · Cloud/Software
+        - button "D Discord ·pvt $15B · Social/Internet" [ref=e2272] [cursor=pointer]:
+          - generic [ref=e2273]: D
+          - generic [ref=e2274]: Discord ·pvt
+          - generic [ref=e2275]: $15B · Social/Internet
+        - button "I Instacart $12B · E-commerce" [ref=e2276] [cursor=pointer]:
+          - generic [ref=e2277]: I
+          - generic [ref=e2278]: Instacart
+          - generic [ref=e2279]: $12B · E-commerce
+        - button "R Roku $10B · Media" [ref=e2280] [cursor=pointer]:
+          - generic [ref=e2281]: R
+          - generic [ref=e2282]: Roku
+          - generic [ref=e2283]: $10B · Media
+        - button "U Unity $8B · Cloud/Software" [ref=e2284] [cursor=pointer]:
+          - generic [ref=e2285]: U
+          - generic [ref=e2286]: Unity
+          - generic [ref=e2287]: $8B · Cloud/Software
+        - button "L Lyft $6B · Mobility" [ref=e2288] [cursor=pointer]:
+          - generic [ref=e2289]: L
+          - generic [ref=e2290]: Lyft
+          - generic [ref=e2291]: $6B · Mobility
+    - button "ENTER" [ref=e538] [cursor=pointer]
+  - contentinfo [ref=e539]: 110-company universe · caps approx June 2026 · saved to this browser

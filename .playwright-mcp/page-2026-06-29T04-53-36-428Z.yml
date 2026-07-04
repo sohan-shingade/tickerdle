@@ -1,0 +1,83 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "how to play" [ref=e7] [cursor=pointer]: "?"
+      - button "settings" [ref=e8] [cursor=pointer]: ⚙
+    - heading "ACRODLE" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - button "stats" [ref=e11] [cursor=pointer]: 📊
+      - button "theme" [ref=e12] [cursor=pointer]: ☀
+  - paragraph [ref=e13]: "Daily #13"
+  - paragraph [ref=e14]:
+    - text: Guess the
+    - generic [ref=e15]: 6 companies
+    - text: whose initials spell a hidden tech acronym.
+    - text: Each guess is graded — use the hints to crack it.
+  - generic [ref=e16]:
+    - generic [ref=e2733]:
+      - generic [ref=e2736]:
+        - generic [ref=e2737]:
+          - generic [ref=e2738]: M
+          - generic [ref=e2739]: Meta
+        - generic [ref=e2740]:
+          - generic [ref=e2743]: A
+          - generic [ref=e2744]: Amazon
+        - generic [ref=e2745]:
+          - generic [ref=e2746]: "N"
+          - generic [ref=e2747]: Nvidia
+        - generic [ref=e2748]:
+          - generic [ref=e2749]: I
+          - generic [ref=e2750]: Intuit
+        - generic [ref=e2751]:
+          - generic [ref=e2754]: A
+          - generic [ref=e2755]: AMD
+        - generic [ref=e2756]:
+          - generic [ref=e2757]: C
+          - generic [ref=e2758]: Cisco
+      - generic [ref=e2761]:
+        - generic [ref=e2763]:
+          - generic [ref=e2764]: Mkt cap
+          - generic [ref=e2765]: Sector
+        - generic [ref=e2766]:
+          - generic [ref=e2767]:
+            - generic [ref=e2768]: $1.7T ▼ far
+            - generic [ref=e2769]: Social · rel
+          - generic [ref=e2770]:
+            - generic [ref=e2771]: $2.8T ▲ close
+            - generic [ref=e2772]: E-comm · rel
+          - generic [ref=e2773]:
+            - generic [ref=e2774]: $5.2T ✓
+            - generic [ref=e2775]: Semis · ✓
+          - generic [ref=e2776]:
+            - generic [ref=e2777]: $180B ▲ far
+            - generic [ref=e2778]: Cloud · diff
+          - generic [ref=e2779]:
+            - generic [ref=e2780]: $400B ▼ far
+            - generic [ref=e2781]: Semis · diff
+          - generic [ref=e2782]:
+            - generic [ref=e2783]: $250B ▲ close
+            - generic [ref=e2784]: Network · rel
+    - generic [ref=e41]:
+      - button "1" [ref=e2786] [cursor=pointer]:
+        - generic [ref=e2788]: "1"
+      - button "2" [ref=e2789] [cursor=pointer]:
+        - generic [ref=e2791]: "2"
+      - button "3" [ref=e2792] [cursor=pointer]:
+        - generic [ref=e2794]: "3"
+      - button "4" [ref=e2795] [cursor=pointer]:
+        - generic [ref=e2797]: "4"
+      - button "5" [ref=e2798] [cursor=pointer]:
+        - generic [ref=e2800]: "5"
+      - button "6" [ref=e2801] [cursor=pointer]:
+        - generic [ref=e2803]: "6"
+  - generic [ref=e89]:
+    - paragraph [ref=e2732]: Tap a slot above, or just start typing.
+    - button "ENTER" [active] [ref=e538] [cursor=pointer]
+  - generic [ref=e2804]:
+    - heading "Locked in" [level=2] [ref=e2805]
+    - generic [ref=e2807]:
+      - generic [ref=e2808]:
+        - generic [ref=e2809]: Nvidia
+        - generic [ref=e2810]: Semiconductors · $5.2T
+      - paragraph [ref=e2811]: Largest company on earth — its GPUs are the AI build-out's bottleneck.
+  - contentinfo [ref=e539]: 110-company universe · caps approx June 2026 · saved to this browser
